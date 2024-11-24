@@ -1,64 +1,300 @@
-span{
-    margin-left: 25%;
+body{
+    background-color: black;
+}
+div#sexe.Sexe{
+
+    width: 700px;
+
+    margin-left: 32%;
+
+    border-radius: 20px;
+
+    height: 140px;
+    
+    margin-top: 2%;
+
+    border-color: black;
+
+    border-style: solid;
+
+}
+label:hover{
+    width: 500px;
 }
 label{
-    font-size: 12px;
+    color: rgb(255, 255, 255);
 
-    width: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin-left: 22%;
+
+    margin-bottom: 2%;
+
+    font-size: 24px;
 
 }
-input{
-    border-radius: 2px;
-
-    cursor: pointer;
-
-    position: relative;
-
-    margin-top: 5%;
+span{
 
     margin-left: 5%;
 
-    height: 15%;
+    color: white;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin-top: 8%;
+
+    font-size: 30px;
 }
+input#homme{
+    margin-left: 10%;
 
-input#submit:hover{
+    font-size: large;
 
-    box-shadow: 10px 5px 5px rgb(0, 0, 0);
+    cursor: pointer;
+}
+input#femme{
+    margin-left: 10%;
 
+    cursor: pointer;
+}
+input#autre{
+    margin-left: 10%;
+
+    cursor: pointer;
 
 }
-input#submit{
-    border-radius: 5px;
+input#nom{
+    height: 30px;
 
-    margin-left: 90%;
-
-}
-div:hover {
     width: 300px;
-  }
-  div {
-    width: 700px;
 
-    height: 300px;
+    border-style: solid;
+
+    border-radius: 20px;
+
+    border-color: black;
+
+    border-width: 2px;
+
+    margin-left: 27%;
+
+    margin-bottom: 2%;
+
+    margin-top: 2%;
+
+    font-size: 30px;
+
+    width: 100px;
+
+    height: 100px;
 
     background: rgb(255, 255, 255);
 
     transition: width 2s;
 
+
+}
+input#nom:hover{
+    width: 300px;
+
+}
+input#email:hover{
+    width: 300px;
+
+}
+input#email{
+    height: 30px;
+
+    width: 300px;
+
     border-style: solid;
-
-    border-width: 1px;
-
-    margin: 5%;
 
     border-radius: 20px;
 
-    box-shadow: 20px 20px 20px rgb(145, 145, 145);
+    border-color: black;
 
-    border-color: rgb(0, 0, 0);
+    border-width: 2px;
 
-    margin-left: 10%;
+    margin-left: 27%;
+
+    margin-bottom: 2%;
+
+    font-size: 30px;
+
+    width: 100px;
+
+    height: 100px;
+
+    background: rgb(255, 255, 255);
+
+    transition: width 2s;
 
 
 
-  }
+}
+input#phone:hover{
+    width: 300px;
+
+}
+input#phone{
+    height: 30px;
+
+    width: 300px;
+
+    border-style: solid;
+
+    border-radius: 20px;
+
+    border-color: black;
+
+    border-width: 2px;
+
+    margin-bottom: 2%;
+
+    font-size: 30px;
+
+    width: 100px;
+
+    height: 100px;
+
+    background: rgb(255, 255, 255);
+    
+    transition: width 2s;
+
+    margin-inline: 18%;
+
+
+}
+input#url:hover{
+    width: 300px;
+
+}
+input#url{
+    height: 30px;
+
+    width: 300px;
+
+    border-style: solid;
+
+    border-radius: 20px;
+
+    border-color: black;
+
+    border-width: 2px;
+
+    margin-left: 28%;
+
+    margin-bottom: 2%;
+
+    font-size: 30px;
+
+    width: 100px;
+
+    height: 100px;
+
+    background: rgb(255, 255, 255);
+
+    transition: width 2s;
+
+
+
+}
+select#Civilite{
+    margin-left: 22%;
+
+    margin-top: 5%;
+
+    width: 150px;
+
+    height: 60px;
+
+    border-width: 2px;
+
+    border-radius: 20px;
+
+    cursor: pointer;
+
+}
+input#start{
+    margin-left: 22%;
+
+    border-style: solid;
+
+    border-color: black;
+
+    height: 45px;
+
+    width: 140px;
+
+    border-radius: 20px;
+
+    border-width: 2px;
+
+    cursor: pointer;
+}
+input#jeux{
+    margin-left: 45%;
+
+    margin-top: 5%;
+
+    cursor: pointer;
+
+}
+input#Cinema{
+    margin-left: 45%;
+
+    cursor: pointer;
+
+}
+input#Lecture{
+    margin-left: 45%;
+
+    cursor: pointer;
+
+}
+input#Sport{
+    margin-left: 45%;
+
+    cursor: pointer;
+
+}
+input#informatique{
+    margin-left: 45%;
+
+    cursor: pointer;
+
+}
+input#submit{
+    margin-left: 35%;
+
+    height: 70px;
+
+    width: 300px;
+
+    border-radius: 20px;
+
+    cursor: pointer;
+
+    font-size: 50px;
+
+    margin-top: 5%;
+
+    cursor: pointer;
+
+}
+input#submit:hover{
+    background-color: black;
+
+    border-style: solid;
+
+    border-color: white;
+
+    color: white;
+}
+h1{
+    color: white;
+
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 90px;
+}
